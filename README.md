@@ -4,7 +4,7 @@ You can use the [editor on GitHub](https://github.com/lnabrigo18/batch5-activiti
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-- [Homework 1](/FirstHomework/index.html)
-- [Activity 1: Letter](/Activity1-Letter/index.html)
+- [Homework 1](/FirstHomework/index.html.html)
+- [Activity 1: Letter](/Activity1-Letter/index.html.html)
 - [Activity 2: Tribute Page](/Activity2-TributePage/index.html)
 - [Activity 3: Chess Board Flex Box](/Activity3-ChessBoardFB/index.html)
