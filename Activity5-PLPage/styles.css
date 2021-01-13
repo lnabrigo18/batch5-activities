@@ -1,0 +1,101 @@
+h1 {
+    text-align: center;
+    }   
+h2 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight:normal;
+    color: rgb(4, 92, 23);
+    text-align: center;
+    }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(4, 92, 23);
+      }
+      
+      li {
+        float: left;
+      }
+      
+      li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      
+      li a:hover:not(.active) {
+        background-color: #111;
+      }
+      
+      .active {
+        background-color: #4CAF50;
+    }
+    .btn {
+        background-color:rgb(4, 92, 23);
+        display: inline-block;
+        position: relative;
+        font-size: 16px;
+        border-radius: 10px;
+        box-shadow:  2px 2px 2px #03742e ;
+        padding: 12px 15px;
+        color: white;
+        text-decoration: none;
+        z-index: 0;
+    }
+    
+    .btn-ghost {
+        box-shadow: none;
+        border: none;
+        background-color: rgb(4, 92, 23) ;
+        margin-left: 20px;
+    }
+    
+    .btn-ghost:active {
+        transform: none;
+    }
+    
+    .btn:active {
+        box-shadow: 0 0 0;
+        transform: translate(2px, 2px);
+    }
+    #video-wrapper h2 {
+        text-align: center;
+        margin-top: 70px;
+        margin-bottom: 30px;
+    }
+    
+    #email{
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    #email-label{
+        height: 30px;
+    }
+    
+    #submit{
+        display: flexbox;
+        text-align: center;
+        background-color: rgb(4, 92, 23);
+        width: 11%;
+        margin: auto;
+        font-size: 18px;
+        color: white;
+        padding: 5px;
+        border-radius: 10px;
+        cursor: pointer;
+        margin-top: 20px;
+    
+    }
+    
+    footer {
+        background-color:rgb(4, 92, 23);
+        padding: 10px;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
