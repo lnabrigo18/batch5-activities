@@ -1,7 +1,7 @@
 ## Welcome to GitHub Pages
 
 My github page link: https://lnabrigo18.github.io/batch5-activities/
-[Made by: Louvien Abrigo]
+-[Made by: Louvien Abrigo]
 
 - [Homework 1](/FirstHomework/index.html.html)
 - [Activity 1: Letter](/Activity1-Letter/index.html.html)
