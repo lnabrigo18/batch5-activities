@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    text-align: center;
+    background-size: 200% 100% !important;
+    animation: move 10s ease infinite;
+    transform: translate3d(0, 0, 0);
+    background: linear-gradient(45deg, red 10%, #A2C7E5 90%);
+    height: 100vh;
+}
+fieldset {
+        display: inline-block;
+        vertical-align:middle;
+        border-radius:4px;
+        background: #fff; 
+        padding:20px;
+        border-color:maroon;
+        width: 500px;
+        text-align:left;
+    }
+legend {
+        color: maroon;
+        font-size:16px;
+        padding:0 10px;
+        background:#fff;
+        box-shadow: 0 1px 5px maroon;
+        padding:5px 10px;
+        text-transform:uppercase;
+        font-family:Helvetica, sans-serif;
+        font-weight:bold;
+    }
+</style>
+</head>
+<body>
+    <header>
+        <img src="images/avion logo.png" height="60px" width="200px"></img>
+    </header>
+    <fieldset>
+        <legend align="center">Avion School Pre-class Survey Form</legend>
+        <div class="container"> <label for="Name">Name:</label>
+            <input type="text" id="name-label" name="name" placeholder="Enter your name" size="40">
+            
+            <p><label for="Email">Email:</label>
+            <input type="email" id="email-label" name="email" pattern=".+@avion.com" placeholder="Enter your email" size="40"></p>
+          
+            
+            <p><label for="Options">Choose a schedule for your class:</label><br>
+            <select id="dropdown" name="Recommended" placeholder="select an options" >
+                <option>Select your choice</option>
+                <option>Full time: Mon-Fri (9AM-6PM)</option>
+                <option>Part time: MTWF (7PM-9PM) and Sat (9AM-1PM)</option>
+            </select></p>
+    
+            <p><label for="Options">What package of course would you choose?</label><br>
+                <input type="radio"  name="option">
+                <label for="male">Package A: HTML/CSS/JS/ReactJS</label><br>
+                <input type="radio"  name="option">
+                <label for="female">Package B: HTML/CSS/JS/Ruby on Rails</label><br>
+    
+            <center><label for="Comment">Should you have a question? Just comment below.</label><br>
+                <textarea id="w3review" name="w3review" rows="6" cols="54"></textarea></center>
+    
+    
+             <center> <p> <input type="submit" ></p> </center>
+            </div>   
+    </fieldset>
+
+</body>
+</html>
