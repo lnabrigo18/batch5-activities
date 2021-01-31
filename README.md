@@ -12,4 +12,4 @@ My github page link: https://lnabrigo18.github.io/batch5-activities/
 - [Activity 7: Calculator](/Activity7-Calculator/index.html)
 - [Activity 8: BMI](https://jsfiddle.net/lnabrigo18/8ubwcsq9/8/)
 - [Activity 9: Quiz Game](/Activity9-QuizGame/index.html)
-- [Chess Game](batch5-activities/ChessGame/index.html)
+- [Chess Game](https://github.com/lnabrigo18/batch5-activities/blob/main/ChessGame/index.html)
