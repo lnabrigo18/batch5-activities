@@ -1,0 +1,58 @@
+body{
+  margin: 30px auto;
+  width: 420px;
+  background: url(quizbg.jpg);
+  background-size: contain;
+ }
+  button {
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px 10px;
+    border: none;
+  }
+  #container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  #submit {
+    float: right;
+    background-color: cornflowerblue;
+    margin: 0 4px;
+    color: white;
+  }
+  #exitQuizBtn {
+    float: right;
+    margin: 0 4px;
+    background-color: red;
+    color: white;
+  }
+  #question-container {
+    height: 300px;
+    width: 500px;
+    padding: 10px 24px;
+    border-radius: 10px;
+    background-color: white;
+  }
+  #choices {
+    list-style-type: none;
+    padding: 0;
+  }
+  .show {
+    display: block !important;
+  }
+  .hide {
+    display: none !important;
+  }
+  #result {
+    text-align: center;
+    position: fixed;
+    top: 420px;
+  }
+  #correctAnswer,
+  #wrongAnswer, p {
+    font-size: 20px;
+  }
