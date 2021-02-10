@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Caloriemeter | Calculator & Counter</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="title-text">
+        <div class="title page" style="color: #fa4299">Caloriemeter</div>
+      </div>
+      <div class="form-container">
+        <div class="slide-controls">
+          <input type="radio" name="slide" id="login" checked>
+          <input type="radio" name="slide" id="signup">
+          <label for="login" class="slide login">Calculator</label>
+          <label for="signup" class="slide signup">Counter</label>
+          <div class="slider-tab"></div>
+        </div>
+
+        <div class="form-inner">
+
+          <form action="#" class="calculator">
+            <div class="calculator-info">
+              <input type="text" placeholder="Name" id="inputName"><br><br>
+              <input type="text" placeholder="Age" id="inputAge" inputmode="numeric" pattern="[0-9]*">
+              <select name="gender">
+                <option value="Gender">Gender</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+              </select><br> <br>
+              <input type="text" placeholder="Height in cm" id="inputHeight" inputmode="numeric" pattern="[0-9]*">
+              <input type="text" placeholder="Weight in kg" id="inputWeight" inputmode="numeric" pattern="[0-9]*">
+            </div>
+          </form>
+      
+          <form action="#" class="counter">
+            <div class="counter-info">
+              <input type="text" placeholder="Search any food" id="inputValue">
+              <input type="submit" value="▶" id="submit">
+              <div class="display">
+                <p class="name" id="name"></p>   
+            </div>
+            </div>
+          </form>
+            </div>
+          
+        </div>
+      </div>
+    <script src="app.js"></script>
+  </body>
+</html>
