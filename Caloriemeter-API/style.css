@@ -124,7 +124,7 @@ input[type="radio"]{
   border-radius: 1px;
   font-size: 15px;
 }
-#inputValue{
+#text1{
   width: 320px;
   height: 30px;
   padding: 5px 10px;
@@ -133,7 +133,7 @@ input[type="radio"]{
   border-radius: 1px;
   font-size: 15px;
 }
-input[type="submit"]{
+.addBtn, #submit-calculate, #faplus{
   background: -webkit-linear-gradient(left, #a445b2, #fa4299);
   font-size: 15px;
   color: white;
@@ -141,4 +141,75 @@ input[type="submit"]{
   width: 50px;
   border: none;
   border-radius: 1px;
+}
+.addBtn{
+  cursor: pointer;
+  padding: 6.2px;
+}
+#faplus{
+  height: 30px;
+  width: 90px;
+  font-size: 12px;
+}
+
+#submit-calculate, #submit-clear{
+  height: 30px;
+  width: 70px;
+}
+.calculator-info{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 2px;
+}
+table, th, td {
+  border: 3px solid #a445b2;
+  text-align: left;
+}
+
+th, td {
+  height: 20px;
+  width: 150px;
+  background-color:#c353b4;
+  color: white;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  width: 320px;
+}
+ul li {
+  cursor: pointer;
+  position: relative;
+  list-style-type: none;
+  font-size: 17px;
+  transition: 0.2s;
+  background: -webkit-linear-gradient(left, #a445b2, #fa4299);
+  color: white;
+  border: 0.5px solid black;
+  padding-left: 2px;
+}
+/* Style the close button */
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.close:hover {
+  background-color:white;
+  color: #a445b2;
+}
+
+#sumCal, #totCal {
+  color: #a445b2;
+  font-weight: bolder;
+  font-size: larger;
+  text-align: center;
+}
+
+.counter-info {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 2px;
 }
