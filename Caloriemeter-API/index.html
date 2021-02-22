@@ -24,24 +24,56 @@
 
           <form action="#" class="calculator">
             <div class="calculator-info">
-              <input type="text" placeholder="Name" id="inputName"><br><br>
-              <input type="text" placeholder="Age" id="inputAge" inputmode="numeric" pattern="[0-9]*">
-              <select name="gender">
-                <option value="Gender">Gender</option>
-                <option value="Female">Female</option>
-                <option value="Male">Male</option>
-              </select><br> <br>
-              <input type="text" placeholder="Height in cm" id="inputHeight" inputmode="numeric" pattern="[0-9]*">
-              <input type="text" placeholder="Weight in kg" id="inputWeight" inputmode="numeric" pattern="[0-9]*">
-            </div>
+              <div class="div1">
+                <input type="text" placeholder="Name" id="inputName"><br><br>
+                <input type="text" placeholder="Age" id="inputAge" inputmode="numeric" pattern="[0-9]*">
+                <select id="inputGender">
+                  <option value="Gender">Gender</option>
+                  <option value="Female">Female</option>
+                  <option value="Male">Male</option>
+                </select><br> <br>
+                <input type="text" placeholder="Height in cm" id="inputHeight" inputmode="numeric" pattern="[0-9]*">
+                <input type="text" placeholder="Weight in kg" id="inputWeight" inputmode="numeric" pattern="[0-9]*"> 
+                <br> <br>
+                <input type="submit" value="Calculate" id="submit-calculate">
+              </div>
+                <div class="div2">
+                  <table>
+                    <tr>
+                      <th>Name</th>
+                      <td id="disName"></td>
+                    </tr>
+                    <tr>
+                      <th>Maintain Weight</th>
+                      <td id="disMaintain"></td>
+                    </tr>
+                    <tr>
+                      <th>Weight Loss <p style="font-size: 12px;">(less 0.5kg up to 1kg/week)</p></th>
+                      <td id="disLoss"></td>
+                    </tr>
+                    <tr>
+                      <th>Weight Gain <p style="font-size: 12px;">(gain 0.5kg up to 1kg/week)</p></th>
+                      <td id="disGain"></td>
+                    </tr>
+                  </table> <br>
+                  <input type="submit" value="Clear data" id="submit-clear" onclick="clearData()">
+                </div>
+            </div> 
           </form>
       
           <form action="#" class="counter">
             <div class="counter-info">
-              <input type="text" placeholder="Search any food" id="inputValue">
-              <input type="submit" value="▶" id="submit">
-              <div class="display">
-                <p class="name" id="name"></p>   
+              <div>
+              <input type="text" id="text1" placeholder="Search any food">
+              <span onclick="newElement()" class="addBtn">Add</span>
+              <br> <br>
+            <ul id="myUL">
+            </ul>
+            <br>
+            <input type="submit" value="Clear data" id="submit-clear2" onclick="clearData2()">
+            </div>
+            <div>
+              <p id="sumCal"></p>       
             </div>
             </div>
           </form>
