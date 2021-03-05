@@ -1,0 +1,25 @@
+n = [34, 15, 88, 2]
+m = [34, -345, -1, 100]
+
+def findsmall(n)
+smallest = n[0]
+n.each do |element|
+if element < smallest
+smallest = element
+end
+end
+return smallest
+end
+
+def findsmall2(m)
+  smallest = m[0]
+  m.each do |element|
+  if element < smallest
+  smallest = element
+  end
+  end
+  return smallest
+  end
+
+puts findsmall(n)
+puts findsmall2(m)
